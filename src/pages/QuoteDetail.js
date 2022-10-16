@@ -35,7 +35,7 @@ const QuoteDetail = () => {
   }
 
   if (!loadedQuote.text) {
-    return <p>No quote found!</p>;
+    return <p>불러올 문구가 없습니다!</p>;
   }
 
   return (

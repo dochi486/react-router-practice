@@ -4,9 +4,9 @@ import classes from './NoQuotesFound.module.css';
 const NoQuotesFound = () => {
   return (
     <div className={classes.noquotes}>
-      <p>No quotes found!</p>
+      <p>불러올 문구가 없습니다!</p>
       <Link className="btn" to="/new-quote">
-        Add a Quote
+        문구 추가하기
       </Link>
     </div>
   );

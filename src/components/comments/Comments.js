@@ -50,10 +50,10 @@ const Comments = () => {
   }
   return (
     <section className={classes.comments}>
-      <h2>User Comments</h2>
+      <h2>등록된 댓글들</h2>
       {!isAddingComment && (
         <button className="btn" onClick={startAddCommentHandler}>
-          Add a Comment
+          댓글 추가하기
         </button>
       )}
       {isAddingComment && (

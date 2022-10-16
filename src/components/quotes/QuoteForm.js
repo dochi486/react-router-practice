@@ -49,16 +49,16 @@ const QuoteForm = (props) => {
           )}
 
           <div className={classes.control}>
-            <label htmlFor="author">Author</label>
+            <label htmlFor="author">출처</label>
             <input type="text" id="author" ref={authorInputRef} />
           </div>
           <div className={classes.control}>
-            <label htmlFor="text">Text</label>
+            <label htmlFor="text">문구</label>
             <textarea id="text" rows="5" ref={textInputRef}></textarea>
           </div>
           <div className={classes.actions}>
             <button onClick={finishedEnteringHandler} className="btn">
-              Add Quote
+              문구 추가하기
             </button>
           </div>
         </form>
