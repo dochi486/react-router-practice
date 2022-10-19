@@ -6,3 +6,9 @@
 - react-router-dom v5를 사용하여 SPA으로 작동하도록 구현했습니다.
 - 파이어베이스를 사용하여 데이터를 저장하고 읽어오도록 했습니다.
 - 파이어베이스를 통해 댓글을 남기고 불러올 수 있도록 했습니다.
+
+### Environments
+- react": "^18.0.0
+- react-dom": "^18.0.0
+- react-router-dom": "^5.2.0
+- react-scripts": "4.0.1
