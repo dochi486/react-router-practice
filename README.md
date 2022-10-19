@@ -8,7 +8,7 @@
 - 파이어베이스를 통해 댓글을 남기고 불러올 수 있도록 했습니다.
 
 ## 라우팅  
-react-router-dom을 활용하여 AllQuotes, NewQuote, QuoteDetail 페이지를 만들었고 
+react-router-dom을 활용하여 AllQuotes, NewQuote, QuoteDetail 페이지를 만들었고   
 useHistory와 useLocation 훅을 사용하여 인용문 id를 기준으로 오름차순, 내림차순 정렬을 적용했습니다.
 
 
