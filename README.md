@@ -11,6 +11,8 @@
 react-router-dom을 활용하여 AllQuotes, NewQuote, QuoteDetail 페이지를 만들었고   
 useHistory와 useLocation 훅을 사용하여 인용문 id를 기준으로 오름차순, 내림차순 정렬을 적용했습니다.
 
+## 파이어베이스 연동
+http 리퀘스트로 파이어베이스에 데이터를 저장하며 useReducer 훅으로 http 리퀘스트의 액션 타입을 관리합니다.  
 
 ### Environments
 - react": "^18.0.0
